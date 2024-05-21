@@ -1,0 +1,80 @@
+* {
+    background-color: rgb(33, 39, 44);
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    background-color: rgb(33, 39, 44);;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoText {
+    color: #c90b0b;
+    font-size:300%;
+    font-weight:900;
+    cursor: pointer;
+}
+
+li, a {
+    font-weight: 600;
+    color: #f5fefd;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 500%;
+    color: #f5fefd;
+    align-self: center;
+}
+
+.MenuLink {
+    list-style: none;
+}
+
+.MenuLink li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.MenuLink li a {
+    transition: akk 0.3s ease 0s;
+}
+
+.MenuLink li a:hover {
+    color: #c90b0b;
+}
+
+button {
+    padding: 9px;
+    background-color:#c90b0b;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: akk 0.3s ease 0s;
+}
+
+h2 a {
+    color: aqua;
+}
+
+p {
+    color: #ffffff;
+}
+
+.Main {
+    text-align: center;
+}
+
+.clock {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #c90b0b;
+    font-size: 300px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
